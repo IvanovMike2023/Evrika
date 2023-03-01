@@ -14,7 +14,7 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-        >
+        >//git push --force https://github.com/IvanovMike2023/Evrika.git
           START!!!!!!!!!!!!
         </a>
       </header>
