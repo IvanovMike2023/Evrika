@@ -2,17 +2,28 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-    function checkScope() {
-    let i = 'function scope';
-    if (!true) {
-    i = 'block scope';
-    //console.log('Block scope i is: ', i);
-  }
-    //console.log('Function scope i is: ', i);
-    return console.log(i);
-  }
-  checkScope()
-  return (
+    const result = {
+        success: ["max-length", "no-amd", "prefer-arrow-functions"],
+        failure: ["no-var", "var-on-top", "linebreak"],
+        skipped: ["no-extra-semi", "no-dup-keys"]
+    };
+    function makeList(arr) {
+        // Only change code below this line
+        const failureItems = []//[`<li class="text-warning">${i}</li>`];
+
+        for(let i=0;i<result.failure.length;i++){
+
+            let t = i
+            failureItems.push( `<li class="text-warning">${result.failure[i]}</li>` )
+            //'<li class="text-warning">no-var</li>'
+        }
+        // Only change code above this line
+
+        return console.log(failureItems);
+    }
+
+    const failuresList = makeList(result.failure);
+    return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
