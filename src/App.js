@@ -2,6 +2,16 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+    function checkScope() {
+    let i = 'function scope';
+    if (!true) {
+    i = 'block scope';
+    //console.log('Block scope i is: ', i);
+  }
+    //console.log('Function scope i is: ', i);
+    return console.log(i);
+  }
+  checkScope()
   return (
     <div className="App">
       <header className="App-header">
