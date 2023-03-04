@@ -3,11 +3,25 @@ import './App.css';
 
 function App() {
 
+    function Adam(е) {
 
-    let myString = "Hello, World!";
-    let myRegex = /Hello/;
-    let result = myRegex.test(myString); // Change this line
-    console.log(result)
+        return has()
+        has()
+    }
+    function has() {
+        return a()
+    }
+    function a() {
+        return dog()
+    }
+    function dog() {
+        return 'Adam has a dog.'
+    }
+    //Adam(has(a(dog()))); // must return "Adam has a dog."
+    console.log(Adam(has(a(dog()))))
+    //console.log(Adam(has()))
+
+
     return (
     <div className="App">
       <header className="App-header">
