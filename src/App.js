@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import {Adam} from './Kata/Get_key_value_pairs_as_arrays'
+import {Adam} from './Kata/kata6_order'
 function App() {
 
-    <script src="./Kata/Get_key_value_pairs_as_arrays.js"> </script>
+    <script src="./Kata/kata6_order.js"> </script>
     function has() {
         return a()
     }

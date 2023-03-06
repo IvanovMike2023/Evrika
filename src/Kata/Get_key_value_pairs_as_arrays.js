@@ -1,5 +1,5 @@
 import React from "react";
-export default function Adam(obj) {
+ function Adam(obj) {
     let mas = Object.keys(obj)
     let mas2 = Object.values(obj)
     mas.push(mas2)
