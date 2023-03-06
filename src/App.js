@@ -1,13 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-
+import {Adam} from './Kata/Get_key_value_pairs_as_arrays'
 function App() {
 
-    function Adam(е) {
-
-        return has()
-        has()
-    }
+    <script src="./Kata/Get_key_value_pairs_as_arrays.js"> </script>
     function has() {
         return a()
     }
@@ -18,7 +14,7 @@ function App() {
         return 'Adam has a dog.'
     }
     //Adam(has(a(dog()))); // must return "Adam has a dog."
-    console.log(Adam(has(a(dog()))))
+    //console.log(Adam())
     //console.log(Adam(has()))
 
 
