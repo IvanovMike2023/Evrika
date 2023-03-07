@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import {Adam} from './Kata/kata6_order'
+import {Adam} from './Kata/kata6_runk_number'
 function App() {
 
-    <script src="./Kata/kata6_order.js"> </script>
+    <script src="./Kata/kata6_runk_number.js"> </script>
     function has() {
         return a()
     }
@@ -13,9 +13,6 @@ function App() {
     function dog() {
         return 'Adam has a dog.'
     }
-    //Adam(has(a(dog()))); // must return "Adam has a dog."
-    //console.log(Adam())
-    //console.log(Adam(has()))
 
 
     return (
