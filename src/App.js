@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import {Adam} from './Kata/kata6_runk_number'
+import {Adam} from './Kata/max_min'
 function App() {
 
-    <script src="./Kata/kata6_runk_number.js"> </script>
+    <script src="./Kata/max_min.js"> </script>
     function has() {
         return a()
     }
