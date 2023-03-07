@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import {Adam} from './Kata/max_min'
+import {Adam} from './Kata/string_repeat'
 function App() {
 
-    <script src="./Kata/max_min.js"> </script>
+    <script src="./Kata/string_repeat.js"> </script>
     function has() {
         return a()
     }
