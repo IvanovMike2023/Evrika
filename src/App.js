@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {Adam} from './Kata/string_repeat'
+import {Adam} from './Kata/The_Hashtag_Generator'
 function App() {
 
     <script src="./Kata/string_repeat.js"> </script>
