@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import {Adam} from './Kata/The_Hashtag_Generator'
+import {Adam} from './Kata/ClassArray'
 function App() {
 
-    <script src="./Kata/string_repeat.js"> </script>
+    <script src="./Kata/ClassArray.js"> </script>
     function has() {
         return a()
     }

@@ -1,14 +1,17 @@
 import React from "react";
-function generateHashtag (str) {
-    if(!str || str.length > 10) return false
-    let words2 = str
-        .split(" ")
-         .map(word =>word.charAt(0).toUpperCase()+word.slice(1)
-).join('')
+function generateHashtag(string) {
+    if (string.trim() === '') return false;
 
-    return console.log(words2)
+    const stringWithCamelCase = string
+        .split(' ')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join('');
+
+    const stringWithHashtag = `#${stringWithCamelCase.trim()}`;
+
+    return stringWithHashtag.length > 140 ? false : console.log(stringWithHashtag);
 }
 
-generateHashtag ("#Crs");  // return "5 1"
+generateHashtag ("#Do We Have A Hashtag");  // return "5 1"
 // highAndLow("1 2 -3 4 5"); // return "5 -3"
 // highAndLow("1 9 3 4 -5"); // return "9 -5"
