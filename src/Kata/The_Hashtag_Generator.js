@@ -1,21 +1,12 @@
 import React from "react";
 function generateHashtag (str) {
     if(!str || str.length > 10) return false
-  //  if(str[0]==='#') return false
-    let words = str.split(" ")
-for (let i =0;i<words.length;i++){
-    words[i] = words[i][0].toUpperCase() + words[i].substr(1)
-}
+    let words2 = str
+        .split(" ")
+         .map(word =>word.charAt(0).toUpperCase()+word.slice(1)
+).join('')
 
-    let newstr = str[0] + str.slice(1)
-    let mas = newstr.split('')
-    mas.unshift('#')
-    let res = mas.join('')
-    let res2 = res.replace(/ /g,'')
-
-
-    words.unshift('#')
-    return console.log(words.join('').replace(/ /g,''))
+    return console.log(words2)
 }
 
 generateHashtag ("#Crs");  // return "5 1"
