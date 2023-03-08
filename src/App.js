@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import {Adam} from './Kata/ClassArray'
+import {Adam} from './Kata/freecode'
 function App() {
 
-    <script src="./Kata/ClassArray.js"> </script>
+    <script src="./Kata/freecode.js"> </script>
     function has() {
         return a()
     }

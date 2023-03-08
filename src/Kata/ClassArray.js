@@ -32,8 +32,9 @@ Array.prototype.odd = function () {
 const numbers = [1, 2, 3, 4, 5]
 //let  numbers = new Numbers(numbers );
 //numbers.square() // false
-//numbers.cube()
-numbers.sum()
+console.log(Array.prototype.odd)
+numbers.toString()
+//console.log(numbers.sum())
 //numbers.summ()
 //numbers.average()
 // numbers.square();  // must return [1, 4, 9, 16, 25]
