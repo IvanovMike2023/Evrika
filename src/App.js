@@ -1,9 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import {Adam} from './Kata/freecode'
+import {Adam} from './Kata/Hoho'
 function App() {
 
-    <script src="./Kata/freecode.js"> </script>
     function has() {
         return a()
     }
