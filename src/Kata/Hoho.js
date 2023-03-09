@@ -5,3 +5,6 @@ function ho() {
 //ho(); // should return "Ho!"
  ho(ho()); // should return "Ho Ho!"
 //ho(ho(ho())); // should return "Ho Ho Ho!
+
+//add("123", "321"); -> "444"
+//add("11", "99");   -> "110"

@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {Adam} from './Kata/Hoho'
+import {Adam} from './Kata/Adding_Big_Numbers'
 function App() {
 
     function has() {
