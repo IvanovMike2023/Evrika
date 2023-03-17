@@ -1,18 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import {Adam} from './Kata/prefill'
+import {Adam} from './Kata/regular'
 function App() {
-
-    function has() {
-        return a()
-    }
-    function a() {
-        return dog()
-    }
-    function dog() {
-        return 'Adam has a dog.'
-    }
-
 
     return (
     <div className="App">
