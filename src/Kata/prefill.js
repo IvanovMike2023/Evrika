@@ -1,20 +1,33 @@
 
+function decipherThis(str) {
+ let r = /\d+/g
+ let mas = str.split(' ').map(function (a,b,d){
+  console.log(a)
+  let c=a.match(r)
+     let rrr= String.fromCharCode(c)
+  let n = rrr+ a.slice(c[0].length)
+   let mas =n.split('')
+    let last = mas.splice(1,1,mas[mas.length-1]).join()
+  mas.pop()
+  mas.push(last)
+  return mas.join('')
+ }
+ )
+ console.log(mas.join(' '))
+};
 
-function prefill(a, b) {
-    //console.log(a.toString().split(""))
-    let mas = []
-    for (let i =0;i<a;i++)
-    {mas.push(b)}
-    console.log(mas)
-    return mas
 
-}
-//prefill('63829983432984289347293874', '90938498237058927340892374089');// -> "444"
-  prefill(3,prefill(2,'2d')) /// --> [1,1,1]
-//
-//     prefill(2,"abc") --> ['abc','abc']
-//
-//     prefill("1", 1) --> [1]
+decipherThis('72olle 103doo 100ya'); // 'Hello good day'
+
+//function decipherThis(str) {
+//   return str.split(" ")
+//     .map(w =>
+//       w.replace(/^\d+/, c => String.fromCharCode(c))
+//        .replace(/^(.)(.)(.*)(.)$/, "$1$4$3$2")
+//     )
+//     .join(" ")
+// }
+
 //
 //     prefill(3, prefill(2,'2d'))
 //       --> [['2d','2d'],['2d','2d'],['2d','2d']]
