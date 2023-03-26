@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import {Adam} from './Kata/regular'
+import {Adam} from './Kata/forexam'
+
 function App() {
 
     return (
